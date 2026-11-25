@@ -123,9 +123,3 @@ a{color:inherit;text-decoration:none}button{font:inherit}img,svg{max-width:100%}
 
 .release-gallery-link{display:inline-block;margin-top:14px;color:var(--mint);font-size:13px;font-weight:700;text-underline-offset:3px}
 .release-gallery-link:hover{text-decoration:underline}
-
-@media(min-width:651px){
-  .gallery-two{justify-content:center}
-  .gallery-two .screenshot-item{flex:0 0 min(36%, 290px)}
-  .showcase:has(.gallery-two) .gallery-controls{display:none}
-}

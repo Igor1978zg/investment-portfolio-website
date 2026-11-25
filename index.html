@@ -54,8 +54,8 @@
   <meta name="twitter:image" content="https://investment-portfolio-app.pages.dev/assets/social-cover.png">
   <title>Investment Portfolio — Investicije pod kontrolom</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=20261125-gallery">
-  <script src="main.js?v=20261125-gallery" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261125-gallery-full">
+  <script src="main.js?v=20261125-gallery-full" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Preskoči na sadržaj</a>
@@ -114,7 +114,7 @@
           <div class="hero-visual-caption" data-i18n="demoFoot">Novo sučelje · razvojna verzija · izmišljeni podaci</div>
         </div>
       </div>
-      <div class="container hero-divider"><span data-i18n="heroBottom">EVIDENCIJA ULAGANJA, BEZ NEPOTREBNE SLOŽENOSTI</span><span class="line-long"></span><span>01 — 04</span></div>
+      <div class="container hero-divider"><span data-i18n="heroBottom">EVIDENCIJA ULAGANJA, BEZ NEPOTREBNE SLOŽENOSTI</span><span class="line-long"></span></div>
     </section>
 
     <section class="ticker-section" aria-label="Vrste ulaganja"><div class="container ticker-row"><span data-i18n="tickerLead">JEDNA APLIKACIJA. VIŠE VRSTA ULAGANJA.</span><div class="ticker-tags"><span>ETFs</span><b>✳</b><span data-i18n="tickerStocks">DIONICE</span><b>✳</b><span data-i18n="tickerCrypto">KRIPTOVALUTE</span><b>✳</b><span data-i18n="tickerOther">RAZLIČITI PORTFELJI</span></div></div></section>
@@ -182,9 +182,11 @@
     <section class="showcase section-space" id="screenshots" aria-labelledby="screensTitle">
       <div class="container">
         <div class="section-intro showcase-top"><div><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="screensKicker">STVARNA APLIKACIJA</span></span><h2 id="screensTitle"><span data-i18n="screensTitle1">Novi izgled</span><br><span class="serif-accent" data-i18n="screensTitle2">aplikacije.</span></h2></div><div class="gallery-intro"><p data-i18n="screensIntro">Pogledaj novi izgled Android aplikacije. Dodirni sliku za prikaz u punoj veličini.</p><div class="gallery-controls"><button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Prethodna slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6 6-6-6 6-6"/></svg></button><button class="gallery-arrow" id="galleryNext" type="button" aria-label="Sljedeća slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></div></div>
-        <div class="gallery gallery-two" id="gallery" role="list">
-          <button class="screenshot-item" type="button" role="listitem" data-image="assets/nova-new-overview.png" data-caption-hr="Pregled portfelja" data-caption-en="Portfolio overview"><span class="screenshot-img"><img src="assets/nova-new-overview.png" alt="Novi pregled portfelja s ukupnom vrijednošću i dobiti" data-alt-hr="Novi pregled portfelja s ukupnom vrijednošću i dobiti" data-alt-en="Redesigned overview with the portfolio value and gain" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot1">Pregled portfelja</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
-          <button class="screenshot-item" type="button" role="listitem" data-image="assets/nova-new-investments.png" data-caption-hr="Ulaganja" data-caption-en="Investments"><span class="screenshot-img"><img src="assets/nova-new-investments.png" alt="Zaslon s popisom ulaganja" data-alt-hr="Zaslon s popisom ulaganja" data-alt-en="Investments screen showing the holdings list" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot4">Ulaganja</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
+        <div class="gallery" id="gallery" role="group">
+          <button class="screenshot-item" type="button" data-image="assets/nova-new-overview.png" data-caption-hr="Pregled portfelja" data-caption-en="Portfolio overview"><span class="screenshot-img"><img src="assets/nova-new-overview.png" alt="Novi pregled portfelja s ukupnom vrijednošću i dobiti" data-alt-hr="Novi pregled portfelja s ukupnom vrijednošću i dobiti" data-alt-en="Redesigned overview with the portfolio value and gain" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot1">Pregled portfelja</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
+          <button class="screenshot-item" type="button" data-image="assets/nova-new-private.png" data-caption-hr="Zamagljeni iznosi" data-caption-en="Amounts hidden"><span class="screenshot-img"><img src="assets/nova-new-private.png" alt="Pregled portfelja s uključenim zamagljivanjem iznosa" data-alt-hr="Pregled portfelja s uključenim zamagljivanjem iznosa" data-alt-en="Portfolio overview with amounts concealed" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot2">Zamagljeni iznosi</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
+          <button class="screenshot-item" type="button" data-image="assets/nova-new-analytics.png" data-caption-hr="Analitika" data-caption-en="Analytics"><span class="screenshot-img"><img src="assets/nova-new-analytics.png" alt="Zaslon analitike s karticama rezultata portfelja" data-alt-hr="Zaslon analitike s karticama rezultata portfelja" data-alt-en="Analytics screen with portfolio results cards" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot3">Analitika</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
+          <button class="screenshot-item" type="button" data-image="assets/nova-new-investments.png" data-caption-hr="Ulaganja" data-caption-en="Investments"><span class="screenshot-img"><img src="assets/nova-new-investments.png" alt="Zaslon s popisom ulaganja" data-alt-hr="Zaslon s popisom ulaganja" data-alt-en="Investments screen showing the holdings list" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot4">Ulaganja</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
         </div>
         <p class="gallery-disclaimer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg><span data-i18n="screensDisclaimer">Snimke su iz razvojne verzije aplikacije i prikazuju izmišljene podatke. Javna beta 1.1 ima prethodni izgled.</span></p>
       </div>

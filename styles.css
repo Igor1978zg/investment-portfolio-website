@@ -123,3 +123,9 @@ a{color:inherit;text-decoration:none}button{font:inherit}img,svg{max-width:100%}
 
 .release-gallery-link{display:inline-block;margin-top:14px;color:var(--mint);font-size:13px;font-weight:700;text-underline-offset:3px}
 .release-gallery-link:hover{text-decoration:underline}
+
+.privacy-comparison:not([hidden]){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-bottom:12px}
+.privacy-comparison button{min-height:44px;padding:8px;border:1px solid #607382;border-radius:8px;background:#172839;color:#f0f6f9;font-size:13px;font-weight:650}
+.privacy-comparison button[aria-pressed="true"]{border-color:#8feacb;background:#b7f1dc;color:#122b23}
+.privacy-comparison button:focus-visible{outline:2px solid #f0cb77;outline-offset:2px}
+.image-dialog:has(.privacy-comparison:not([hidden])) .dialog-image-wrap{height:min(62vh,705px)}

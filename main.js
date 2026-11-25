@@ -45,7 +45,7 @@
       tickerLead:'JEDNA APLIKACIJA. VIŠE VRSTA ULAGANJA.',tickerStocks:'DIONICE',tickerCrypto:'KRIPTOVALUTE',tickerOther:'RAZLIČITI PORTFELJI',
       featuresKicker:'ŠTO MOŽEŠ RADITI',featuresTitleOne:'Manje tablica.',featuresTitleTwo:'Više jasnoće.',featuresIntro:'Od prve uplate do dugoročnog praćenja — pregledne funkcije za osobnu evidenciju ulaganja, bez nepotrebne buke.',
       f1Title:'Svi portfelji. Jedan pregled.',f1Desc:'Prati više portfelja i ulaganja te ukupno uloženo, vrijednost i ostvareni rezultat.',f2Title:'Grafikoni i povijest',f2Desc:'Vizualiziraj zabilježene procjene vrijednosti, uplate i kretanje vlastitog portfelja.',f3Title:'Kupnje, prodaje i naknade',f3Desc:'Zabilježi transakcije ručno, uključujući količinu udjela, datume i troškove.',f4Title:'FIFO i razdoblje držanja',f4Desc:'Informativni prikaz FIFO evidencije i dvogodišnjeg razdoblja za korisnike s hrvatskom poreznom rezidentnošću.',f5Title:'Lokalni podaci i biometrija',f5Desc:'Evidencija ostaje na uređaju. Android biometrija može pružiti dodatnu zaštitu pristupa.',f6Title:'Sigurnosne kopije',f6Desc:'Izvezi evidenciju u JSON datoteku i vrati je po potrebi. Mjesto čuvanja biraš sam.',
-      screensKicker:'STVARNA APLIKACIJA',screensTitle1:'Novi izgled',screensTitle2:'aplikacije.',screensIntro:'Pogledaj novi izgled Android aplikacije. Dodirni sliku za prikaz u punoj veličini.',shot1:'Pregled portfelja',shot2:'Zamagljeni iznosi',shot3:'Analitika',shot4:'Ulaganja',screensDisclaimer:'Snimke su iz razvojne verzije aplikacije i prikazuju izmišljene podatke. Javna beta 1.1 ima prethodni izgled.',
+      compareVisible:'Vidljivi iznosi',compareConcealed:'Zamagljeni iznosi',screensKicker:'STVARNA APLIKACIJA',screensTitle1:'Novi izgled',screensTitle2:'aplikacije.',screensIntro:'Pogledaj novi izgled Android aplikacije. Dodirni sliku za uvećanje. U prikazu portfelja možeš usporediti vidljive i zamagljene iznose.',shot1:'Pregled portfelja',shot2:'Zamagljeni iznosi',shot3:'Analitika',shot4:'Ulaganja',screensDisclaimer:'Snimke su iz razvojne verzije aplikacije i prikazuju izmišljene podatke. Javna beta 1.1 ima prethodni izgled.',
       demoKicker:'ISPROBAJ PRIKAZ',demoTitleOne:'Brojke imaju',demoTitleTwo:'svoju priču.',demoCopy:'Pogledaj kako može izgledati jednostavno praćenje ulaganja. Promijeni razdoblje i pregledaj demonstracijski grafikon.',demoNote:'Interaktivni prikaz na webu. Nije povezan s aplikacijom niti sa stvarnim tržišnim podacima.',demoPanel:'Pregled vrijednosti',demoBadge:'DEMO PODACI',demoValueLabel:'Ukupna vrijednost',legendName:'Vrijednost portfelja',
       privacyKicker:'PRIVATNOST JE TEMELJ',privacyTitle1:'Nije potrebno dijeliti',privacyTitle2:'financijske podatke.',privacyDesc:'Investment Portfolio čuva evidenciju ulaganja lokalno na tvojem Android uređaju. Za praćenje vlastitih ulaganja ne trebaš povezivati banku, brokera ni otvoriti račun kod nas.',privacyOne:'Lokalna evidencija ulaganja',privacyTwo:'Ručno izvezive sigurnosne kopije',privacyThree:'Bez obveznih bankovnih prijava',privacyCaveat:'Opcionalne tržišne cijene i tečajevi mogu zahtijevati komunikaciju s vanjskim pružateljima podataka. Sigurnosne kopije zaštiti kao i druge osjetljive datoteke.',privacyLink:'Pročitaj politiku privatnosti ↗',
       stepsKicker:'KAKO ZAPOČETI',stepsTitle:'Tri jednostavna koraka.',step1Title:'Preuzmi beta aplikaciju',step1Desc:'Otvori službenu itch.io stranicu i preuzmi APK za Android.',step2Title:'Dodaj vlastiti portfelj',step2Desc:'Ručno unesi ulaganja i transakcije, bez povezivanja računa.',step3Title:'Prati i sačuvaj evidenciju',step3Desc:'Provjeravaj prikaze te redovito izvozi sigurnosnu kopiju.',
@@ -104,7 +104,7 @@
       tickerLead:'ONE APP. MANY TYPES OF INVESTMENTS.',tickerStocks:'STOCKS',tickerCrypto:'CRYPTO',tickerOther:'MULTIPLE PORTFOLIOS',
       featuresKicker:'WHAT YOU CAN DO',featuresTitleOne:'Less spreadsheet.',featuresTitleTwo:'More clarity.',featuresIntro:'From your first contribution to long-term tracking — practical tools to organize personal investment records without unnecessary noise.',
       f1Title:'All portfolios. One view.',f1Desc:'Track multiple portfolios and investments, including invested capital, portfolio value and performance.',f2Title:'Charts & history',f2Desc:'Visualize recorded portfolio valuations, contributions and historical changes.',f3Title:'Trades & fees',f3Desc:'Log purchases and sales manually, including units, dates and fees.',f4Title:'FIFO & holding periods',f4Desc:'Informational FIFO and two-year holding period views for users with Croatian tax residency.',f5Title:'Local data & biometrics',f5Desc:'Your investment records stay on-device. Android biometric authentication can add another layer of access protection.',f6Title:'Backup & restore',f6Desc:'Export your records to JSON and restore them when necessary. You choose where the file is stored.',
-      screensKicker:'THE REAL APP',screensTitle1:'A new look',screensTitle2:'for the app.',screensIntro:'See the redesigned Android app. Tap any screenshot to view it in full size.',shot1:'Portfolio overview',shot2:'Amounts hidden',shot3:'Analytics',shot4:'Investments',screensDisclaimer:'These screenshots come from a development build and show fictional data. Public Beta 1.1 uses the previous design.',
+      compareVisible:'Amounts visible',compareConcealed:'Amounts blurred',screensKicker:'THE REAL APP',screensTitle1:'A new look',screensTitle2:'for the app.',screensIntro:'See the redesigned Android app. Tap a screenshot to enlarge it. Open the portfolio overview to compare visible and blurred amounts.',shot1:'Portfolio overview',shot2:'Amounts hidden',shot3:'Analytics',shot4:'Investments',screensDisclaimer:'These screenshots come from a development build and show fictional data. Public Beta 1.1 uses the previous design.',
       demoKicker:'EXPLORE THE VIEW',demoTitleOne:'Every number',demoTitleTwo:'tells a story.',demoCopy:'See how simple investment tracking might look. Switch time ranges in this interactive sample chart.',demoNote:'Interactive website illustration. Not linked to the app or any real market data.',demoPanel:'Portfolio performance',demoBadge:'DEMO DATA',demoValueLabel:'Total portfolio value',legendName:'Portfolio value',
       privacyKicker:'PRIVACY BY DESIGN',privacyTitle1:'Your financial records',privacyTitle2:'stay yours.',privacyDesc:'Investment Portfolio stores your investment records locally on your Android device. You do not need to connect a bank or broker or create an account with us to track your investments.',privacyOne:'On-device investment records',privacyTwo:'Manually exportable backups',privacyThree:'No required bank connections',privacyCaveat:'Optional market prices and exchange rates may contact external data providers. Protect your backup files as you would other sensitive documents.',privacyLink:'Read the privacy policy ↗',
       stepsKicker:'GETTING STARTED',stepsTitle:'Three simple steps.',step1Title:'Download the public beta',step1Desc:'Visit the official itch.io page to download the APK for Android.',step2Title:'Create your portfolio',step2Desc:'Add investments and transactions manually. No account connection needed.',step3Title:'Track & back up',step3Desc:'Review your portfolio and regularly export a backup of your data.',
@@ -143,7 +143,9 @@
     $$('[data-period]').forEach(button => button.setAttribute('aria-label', `${currentLang === 'hr' ? 'Razdoblje' : 'Time period'} ${button.textContent}`));
     const gallery = $('#gallery');
     if(gallery) gallery.setAttribute('aria-label',currentLang === 'hr' ? 'Snimke zaslona aplikacije' : 'App screenshots');
-    if($('#imageDialog')?.open) updateDialogCaption();
+    $('#privacyComparison')?.setAttribute('aria-label', currentLang === 'hr' ? 'Usporedi prikaze iznosa' : 'Compare amount visibility');
+    $('#closeDialog')?.setAttribute('aria-label', currentLang === 'hr' ? 'Zatvori snimku zaslona' : 'Close screenshot');
+    updateDialogCaption();
     updateChart();
     savePreference('ip-lang', currentLang);
   };
@@ -213,18 +215,34 @@
   $('#galleryPrev')?.addEventListener('click',()=>$('#gallery')?.scrollBy({left:-280,behavior:'smooth'}));
   $('#galleryNext')?.addEventListener('click',()=>$('#gallery')?.scrollBy({left:280,behavior:'smooth'}));
   const dialog = $('#imageDialog');
+  const dialogImage = $('#dialogImage');
+  const comparison = $('#privacyComparison');
+  const compareButtons = $$('[data-show-privacy]');
+  const privacyScreenshots = new Map($$('[data-privacy-view]').map(item => [item.dataset.privacyView, item]));
   let activeScreenshot = null;
   function updateDialogCaption() {
     if (!activeScreenshot) return;
-    $('#dialogCaption').textContent = activeScreenshot.dataset[currentLang === 'hr' ? 'captionHr' : 'captionEn'];
+    const caption = activeScreenshot.dataset[currentLang === 'hr' ? 'captionHr' : 'captionEn'];
+    $('#dialogCaption').textContent = caption;
+    dialogImage.alt = caption;
   }
+  function showScreenshot(item) {
+    activeScreenshot = item;
+    dialogImage.src = item.dataset.image;
+    dialogImage.parentElement.scrollTop = 0;
+    updateDialogCaption();
+    comparison.hidden = !item.dataset.privacyView;
+    compareButtons.forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.showPrivacy === item.dataset.privacyView));
+    });
+  }
+  compareButtons.forEach(button => button.addEventListener('click', () => {
+    const item = privacyScreenshots.get(button.dataset.showPrivacy);
+    if (item && item !== activeScreenshot) showScreenshot(item);
+  }));
   $$('.screenshot-item').forEach(item => item.addEventListener('click', () => {
     if (!dialog) return;
-    activeScreenshot = item;
-    const image = $('#dialogImage');
-    image.src = item.dataset.image;
-    updateDialogCaption();
-    image.alt = $('#dialogCaption').textContent;
+    showScreenshot(item);
     dialog.showModal();
     $('#closeDialog')?.focus();
   }));

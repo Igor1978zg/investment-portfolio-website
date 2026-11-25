@@ -54,8 +54,8 @@
   <meta name="twitter:image" content="https://investment-portfolio-app.pages.dev/assets/social-cover.png">
   <title>Investment Portfolio — Investicije pod kontrolom</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="styles.css?v=20261125">
-  <script src="main.js?v=20261125" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261125-gallery">
+  <script src="main.js?v=20261125-gallery" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Preskoči na sadržaj</a>
@@ -109,9 +109,9 @@
           <div class="hero-orbit orbit-one" aria-hidden="true"></div><div class="hero-orbit orbit-two" aria-hidden="true"></div>
           <div class="glow-ball" aria-hidden="true"></div>
           <div class="floating-label top-floating"><span class="tiny-symbol" aria-hidden="true">✦</span><span data-i18n="floatingOne">Jasan pregled portfelja</span></div>
-          <div class="phone-mockup hero-phone"><div class="phone-top" aria-hidden="true"><span></span></div><img src="assets/01-portfolio.png" alt="Stvarna snimka zaslona aplikacije: vrijednost portfelja i unos procjene vrijednosti; prikazani iznosi su izmišljeni" width="430" height="1168" fetchpriority="high"><div class="phone-bottom" aria-hidden="true"></div></div>
+          <div class="phone-mockup hero-phone"><img src="assets/nova-new-overview.png" alt="Novi pregled portfelja u razvojnoj verziji aplikacije" data-alt-hr="Novi pregled portfelja u razvojnoj verziji aplikacije" data-alt-en="New portfolio overview in the development build" width="1080" height="2280" fetchpriority="high"></div>
           <div class="floating-label bottom-floating"><span class="mini-lock"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span><span><strong data-i18n="floatingTwo">Tvoja evidencija.</strong><small data-i18n="floatingThree">Pod tvojom kontrolom.</small></span></div>
-          <div class="hero-visual-caption" data-i18n="demoFoot">Stvarna snimka aplikacije · izmišljeni testni podaci</div>
+          <div class="hero-visual-caption" data-i18n="demoFoot">Novo sučelje · razvojna verzija · izmišljeni podaci</div>
         </div>
       </div>
       <div class="container hero-divider"><span data-i18n="heroBottom">EVIDENCIJA ULAGANJA, BEZ NEPOTREBNE SLOŽENOSTI</span><span class="line-long"></span><span>01 — 04</span></div>
@@ -149,6 +149,7 @@
             <p class="release-status" data-i18n="updatesInProgress">U razvoju za javnu betu</p>
             <h3 data-i18n="updatesVisual">Novi pregled i privatni prikaz</h3>
             <p data-i18n="updatesVisualCopy">Istaknutija ukupna vrijednost portfelja, čitljiviji graf i kartice ulaganja te ikona oka za privremeno skrivanje iznosa tijekom pokazivanja zaslona.</p>
+            <a class="release-gallery-link" href="#screenshots" data-i18n="updatesGalleryLink">Pogledaj novo sučelje</a>
           </article>
           <article class="release-card">
             <p class="release-status" data-i18n="updatesInProgress">U razvoju za javnu betu</p>
@@ -180,14 +181,12 @@
 
     <section class="showcase section-space" id="screenshots" aria-labelledby="screensTitle">
       <div class="container">
-        <div class="section-intro showcase-top"><div><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="screensKicker">STVARNA APLIKACIJA</span></span><h2 id="screensTitle"><span data-i18n="screensTitle1">Bez renderiranih obećanja.</span><br><span class="serif-accent" data-i18n="screensTitle2">Pogledaj sučelje.</span></h2></div><div class="gallery-intro"><p data-i18n="screensIntro">Četiri originalne snimke zaslona iz razvojne verzije. Klikni za prikaz u punoj veličini.</p><div class="gallery-controls"><button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Prethodna slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6 6-6-6 6-6"/></svg></button><button class="gallery-arrow" id="galleryNext" type="button" aria-label="Sljedeća slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></div></div>
-        <div class="gallery" id="gallery" role="list">
-          <button class="screenshot-item" type="button" role="listitem" data-image="assets/01-portfolio.png" data-caption-hr="Pregled portfelja" data-caption-en="Portfolio overview"><span class="screenshot-img"><img src="assets/01-portfolio.png" alt="Pregled portfelja i vrijednosti u aplikaciji" width="430" height="1168" loading="lazy"></span><span class="screenshot-caption"><span><b>01</b><strong data-i18n="shot1">Pregled portfelja</strong></span><span class="corner-arrow">↗</span></span></button>
-          <button class="screenshot-item" type="button" role="listitem" data-image="assets/02-chart.png" data-caption-hr="Grafikoni i povijest" data-caption-en="Charts and history"><span class="screenshot-img"><img src="assets/02-chart.png" alt="Grafikon povijesnih procjena i uplata" width="430" height="1168" loading="lazy"></span><span class="screenshot-caption"><span><b>02</b><strong data-i18n="shot2">Grafikoni i povijest</strong></span><span class="corner-arrow">↗</span></span></button>
-          <button class="screenshot-item" type="button" role="listitem" data-image="assets/03-holding-period.png" data-caption-hr="Dvogodišnje razdoblje" data-caption-en="Two-year holding period"><span class="screenshot-img"><img src="assets/03-holding-period.png" alt="Prikaz dvogodišnjeg razdoblja držanja udjela" width="430" height="1168" loading="lazy"></span><span class="screenshot-caption"><span><b>03</b><strong data-i18n="shot3">Dvogodišnje razdoblje</strong></span><span class="corner-arrow">↗</span></span></button>
-          <button class="screenshot-item" type="button" role="listitem" data-image="assets/04-transaction.png" data-caption-hr="Unos transakcije" data-caption-en="Record a transaction"><span class="screenshot-img"><img src="assets/04-transaction.png" alt="Obrazac za ručni unos investicijske transakcije" width="430" height="1168" loading="lazy"></span><span class="screenshot-caption"><span><b>04</b><strong data-i18n="shot4">Unos transakcije</strong></span><span class="corner-arrow">↗</span></span></button>
+        <div class="section-intro showcase-top"><div><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="screensKicker">STVARNA APLIKACIJA</span></span><h2 id="screensTitle"><span data-i18n="screensTitle1">Novi izgled</span><br><span class="serif-accent" data-i18n="screensTitle2">aplikacije.</span></h2></div><div class="gallery-intro"><p data-i18n="screensIntro">Pogledaj novi izgled Android aplikacije. Dodirni sliku za prikaz u punoj veličini.</p><div class="gallery-controls"><button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Prethodna slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6 6-6-6 6-6"/></svg></button><button class="gallery-arrow" id="galleryNext" type="button" aria-label="Sljedeća slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></div></div>
+        <div class="gallery gallery-two" id="gallery" role="list">
+          <button class="screenshot-item" type="button" role="listitem" data-image="assets/nova-new-overview.png" data-caption-hr="Pregled portfelja" data-caption-en="Portfolio overview"><span class="screenshot-img"><img src="assets/nova-new-overview.png" alt="Novi pregled portfelja s ukupnom vrijednošću i dobiti" data-alt-hr="Novi pregled portfelja s ukupnom vrijednošću i dobiti" data-alt-en="Redesigned overview with the portfolio value and gain" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot1">Pregled portfelja</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
+          <button class="screenshot-item" type="button" role="listitem" data-image="assets/nova-new-investments.png" data-caption-hr="Ulaganja" data-caption-en="Investments"><span class="screenshot-img"><img src="assets/nova-new-investments.png" alt="Zaslon s popisom ulaganja" data-alt-hr="Zaslon s popisom ulaganja" data-alt-en="Investments screen showing the holdings list" width="1080" height="2280" loading="lazy"></span><span class="screenshot-caption"><strong data-i18n="shot4">Ulaganja</strong><span class="corner-arrow" aria-hidden="true">↗</span></span></button>
         </div>
-        <p class="gallery-disclaimer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg><span data-i18n="screensDisclaimer">Snimke prikazuju razvojno/testno sučelje i isključivo izmišljene podatke. Izgled aktualne javne bete može se razlikovati.</span></p>
+        <p class="gallery-disclaimer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5m0-8h.01"/></svg><span data-i18n="screensDisclaimer">Snimke su iz razvojne verzije aplikacije i prikazuju izmišljene podatke. Javna beta 1.1 ima prethodni izgled.</span></p>
       </div>
     </section>
 

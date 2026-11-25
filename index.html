@@ -54,8 +54,8 @@
   <meta name="twitter:image" content="https://investment-portfolio-app.pages.dev/assets/social-cover.png">
   <title>Investment Portfolio — Investicije pod kontrolom</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="styles.css">
-  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=20261125">
+  <script src="main.js?v=20261125" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Preskoči na sadržaj</a>
@@ -71,6 +71,7 @@
       <nav class="nav-links" aria-label="Glavna navigacija">
         <a href="#features" data-i18n="navFeatures">Mogućnosti</a>
         <a href="#screenshots" data-i18n="navScreens">Aplikacija</a>
+        <a href="#updates" data-i18n="navNews">Novosti</a>
         <a href="#privacy" data-i18n="navPrivacy">Privatnost</a>
         <a href="#faq" data-i18n="navFaq">Pitanja</a>
       </nav>
@@ -84,6 +85,7 @@
     <nav class="mobile-menu" id="mobileMenu" aria-label="Mobilna navigacija" hidden>
       <a href="#features" data-i18n="navFeatures">Mogućnosti</a>
       <a href="#screenshots" data-i18n="navScreens">Aplikacija</a>
+      <a href="#updates" data-i18n="navNews">Novosti</a>
       <a href="#privacy" data-i18n="navPrivacy">Privatnost</a>
       <a href="#faq" data-i18n="navFaq">Pitanja</a>
       <a href="https://strfvckrzg-applab.itch.io/investment-portfolio-public-beta-10" target="_blank" rel="noopener noreferrer" data-i18n="navDownload">Preuzmi beta</a>
@@ -131,6 +133,51 @@
       </div>
     </section>
 
+    <section class="release-updates section-space" id="updates" aria-labelledby="updatesTitle">
+      <div class="container">
+        <div class="section-intro">
+          <h2 id="updatesTitle" data-i18n="updatesTitle">Što je novo u Investment Portfoliju</h2>
+          <p data-i18n="updatesIntro">Javna beta 1.1 dostupna je na itch.io. Novi prikaz portfelja i regionalni porezni pregledi pripremaju se za sljedeće javno izdanje.</p>
+        </div>
+        <div class="release-grid">
+          <article class="release-card is-available">
+            <p class="release-status" data-i18n="updatesAvailable">Dostupno sada</p>
+            <h3 data-i18n="updatesBeta">Javna beta 1.1 za Android</h3>
+            <p data-i18n="updatesBetaCopy">Upravljaj portfeljima, bilježi transakcije i prati povijest ulaganja. Beta 1.1 prikazuje kada je cijena spremljena i odakle dolazi te omogućuje nastavak nedovršenog unosa. Hrvatski FIFO pregled dostupan je uz odabranu Hrvatsku.</p>
+          </article>
+          <article class="release-card">
+            <p class="release-status" data-i18n="updatesInProgress">U razvoju za javnu betu</p>
+            <h3 data-i18n="updatesVisual">Novi pregled i privatni prikaz</h3>
+            <p data-i18n="updatesVisualCopy">Istaknutija ukupna vrijednost portfelja, čitljiviji graf i kartice ulaganja te ikona oka za privremeno skrivanje iznosa tijekom pokazivanja zaslona.</p>
+          </article>
+          <article class="release-card">
+            <p class="release-status" data-i18n="updatesInProgress">U razvoju za javnu betu</p>
+            <h3 data-i18n="updatesTax">Porezni pregled prema rezidentnosti</h3>
+            <p data-i18n="updatesTaxCopy">Razvojna beta ima izbor porezne rezidentnosti za svih 27 država EU-a, 25 najvećih gospodarstava prema nominalnom BDP-u za 2026. i druga područja. Rezidentnost biraš u postavkama, neovisno o jeziku, valuti ili banci. CSV izvoz obuhvaća kupnje, prodaje, naknade i dividende otvorenog ulaganja.</p>
+          </article>
+        </div>
+        <div class="release-coverage">
+          <h3 id="updatesScopeTitle" data-i18n="updatesScopeTitle">Regionalno porezno pokriće</h3>
+          <p data-i18n="updatesScopeIntro">Hrvatski FIFO već je u javnoj beti. Ostali navedeni pregledi za 2025. i 2026. još se pripremaju za javno izdanje i pokrivaju sljedeće slučajeve.</p>
+          <table aria-labelledby="updatesScopeTitle">
+            <thead><tr><th scope="col" data-i18n="updatesArea">Porezno područje</th><th scope="col" data-i18n="updatesScope">Podržani pregled</th></tr></thead>
+            <tbody>
+              <tr><th scope="row" data-i18n="updatesHR">Hrvatska</th><td data-i18n="updatesHRScope">Informativni FIFO i pregled roka držanja u javnoj beti.</td></tr>
+              <tr><th scope="row" data-i18n="updatesSI">Slovenija</th><td data-i18n="updatesSIScope">Procjena prodaje dionica i ETF-ova na običnom računu, prije godišnjeg prebijanja gubitaka.</td></tr>
+              <tr><th scope="row" data-i18n="updatesRS">Srbija</th><td data-i18n="updatesRSScope">Procjena dokumentirane prodaje dionica uz ručni unos provjerenih iznosa u dinarima.</td></tr>
+              <tr><th scope="row" data-i18n="updatesME">Crna Gora</th><td data-i18n="updatesMEScope">FIFO procjena državnog poreza za otvorenu dionicu, bez općinskog prireza.</td></tr>
+              <tr><th scope="row" data-i18n="updatesMK">Sjeverna Makedonija</th><td data-i18n="updatesMKScope">Procjena za dokumentirani dio prodaje dionice ili udjela u fondu, uz ručni unos u denarima.</td></tr>
+              <tr><th scope="row" data-i18n="updatesXK">Kosovo</th><td data-i18n="updatesXKScope">Procjena dodatnog godišnjeg poreza od prodaje dionica, prema ukupnoj poreznoj osnovici.</td></tr>
+              <tr><th scope="row" data-i18n="updatesBAFB">Federacija BiH</th><td data-i18n="updatesBAFBScope">Procjena za prodaju poslovnog udjela u d.o.o.</td></tr>
+              <tr><th scope="row" data-i18n="updatesBARS">Republika Srpska</th><td data-i18n="updatesBARSScope">Procjena za uobičajenu domaću prodaju dionica uz dokumentiranu ponderiranu nabavnu vrijednost.</td></tr>
+              <tr><th scope="row" data-i18n="updatesBABD">Brčko distrikt</th><td data-i18n="updatesBABDScope">Informacija o izuzeću za obuhvaćene financijske instrumente.</td></tr>
+            </tbody>
+          </table>
+          <p class="release-note" data-i18n="updatesNotice">Porezni pregledi služe kao pomoć pri evidenciji. Procjene za pojedine prodaje mogu izostaviti gubitke iz drugih ulaganja, olakšice i inozemne porezne kredite.</p>
+        </div>
+      </div>
+    </section>
+
     <section class="showcase section-space" id="screenshots" aria-labelledby="screensTitle">
       <div class="container">
         <div class="section-intro showcase-top"><div><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="screensKicker">STVARNA APLIKACIJA</span></span><h2 id="screensTitle"><span data-i18n="screensTitle1">Bez renderiranih obećanja.</span><br><span class="serif-accent" data-i18n="screensTitle2">Pogledaj sučelje.</span></h2></div><div class="gallery-intro"><p data-i18n="screensIntro">Četiri originalne snimke zaslona iz razvojne verzije. Klikni za prikaz u punoj veličini.</p><div class="gallery-controls"><button class="gallery-arrow" id="galleryPrev" type="button" aria-label="Prethodna slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5m6 6-6-6 6-6"/></svg></button><button class="gallery-arrow" id="galleryNext" type="button" aria-label="Sljedeća slika"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div></div></div>
@@ -160,14 +207,14 @@
 
     <section class="steps section-space" id="how" aria-labelledby="stepsTitle"><div class="container"><div class="section-intro"><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="stepsKicker">KAKO ZAPOČETI</span></span><h2 id="stepsTitle"><span data-i18n="stepsTitle">Tri jednostavna koraka.</span></h2></div><div class="steps-grid"><article class="step"><span>01</span><div class="step-rule"></div><h3 data-i18n="step1Title">Preuzmi beta aplikaciju</h3><p data-i18n="step1Desc">Otvori službenu itch.io stranicu i preuzmi APK za Android.</p></article><article class="step"><span>02</span><div class="step-rule"></div><h3 data-i18n="step2Title">Dodaj vlastiti portfelj</h3><p data-i18n="step2Desc">Ručno unesi ulaganja i transakcije, bez povezivanja računa.</p></article><article class="step"><span>03</span><div class="step-rule"></div><h3 data-i18n="step3Title">Prati i sačuvaj evidenciju</h3><p data-i18n="step3Desc">Provjeravaj prikaze te redovito izvozi sigurnosnu kopiju.</p></article></div></div></section>
 
-    <section class="faq section-space" id="faq" aria-labelledby="faqTitle"><div class="container faq-layout"><div class="faq-intro"><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="faqKicker">DOBRO JE ZNATI</span></span><h2 id="faqTitle"><span data-i18n="faqTitle1">Pitanja?</span><br><span class="serif-accent" data-i18n="faqTitle2">Imamo odgovore.</span></h2><p data-i18n="faqIntro">Važne informacije prije instalacije javne beta-verzije.</p></div><div class="faq-items"><details><summary><span data-i18n="faq1Q">Je li aplikacija besplatna?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq1A">Da. Trenutačna javna beta 1.1 besplatna je, bez pretplate i oglasa. Budući uvjeti novih verzija mogu se promijeniti.</p></details><details><summary><span data-i18n="faq2Q">Treba li povezati banku ili brokerski račun?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq2A">Ne. Uplate, prodaje i ostale podatke možeš unijeti ručno. Nema obvezne registracije ni povezivanja bankovnog računa.</p></details><details><summary><span data-i18n="faq3Q">Jesu li cijene i izračuni uvijek točni?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq3A">Ne nužno. Podaci se mogu unositi ručno, a tržišni podaci mogu kasniti ili biti nepotpuni. Prije donošenja financijskih ili poreznih odluka važne iznose provjeri neovisno.</p></details><details><summary><span data-i18n="faq4Q">Mogu li koristiti aplikaciju za poreznu prijavu?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq4A">Aplikacija može pomoći pri osobnoj evidenciji. Hrvatski FIFO i razdoblja držanja prikazani su informativno i nisu porezni savjet ili službena potvrda porezne obveze.</p></details><details><summary><span data-i18n="faq5Q">Kako nadograditi s bete 1.0 na 1.1?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq5A">Prema uputama izdavača, beta 1.1 instalira se preko verzije 1.0 bez prethodnog uklanjanja. Prije nadogradnje svejedno napravi sigurnosnu kopiju važnih podataka.</p></details></div></div></section>
+    <section class="faq section-space" id="faq" aria-labelledby="faqTitle"><div class="container faq-layout"><div class="faq-intro"><span class="section-kicker"><span class="kicker-line"></span><span data-i18n="faqKicker">DOBRO JE ZNATI</span></span><h2 id="faqTitle"><span data-i18n="faqTitle1">Pitanja?</span><br><span class="serif-accent" data-i18n="faqTitle2">Imamo odgovore.</span></h2><p data-i18n="faqIntro">Važne informacije prije instalacije javne beta-verzije.</p></div><div class="faq-items"><details><summary><span data-i18n="faqRoadmapQ">Jesu li novi regionalni porezni pregledi već dostupni?</span><b aria-hidden="true">+</b></summary><p data-i18n="faqRoadmapA">Hrvatski FIFO već je u javnoj beti 1.1. Ostali regionalni pregledi, prošireni izbor porezne rezidentnosti i opći CSV izvoz u pripremi su za javno izdanje.</p></details><details><summary><span data-i18n="faq1Q">Je li aplikacija besplatna?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq1A">Da. Trenutačna javna beta 1.1 besplatna je, bez pretplate i oglasa. Budući uvjeti novih verzija mogu se promijeniti.</p></details><details><summary><span data-i18n="faq2Q">Treba li povezati banku ili brokerski račun?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq2A">Ne. Uplate, prodaje i ostale podatke možeš unijeti ručno. Nema obvezne registracije ni povezivanja bankovnog računa.</p></details><details><summary><span data-i18n="faq3Q">Jesu li cijene i izračuni uvijek točni?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq3A">Ne nužno. Podaci se mogu unositi ručno, a tržišni podaci mogu kasniti ili biti nepotpuni. Prije donošenja financijskih ili poreznih odluka važne iznose provjeri neovisno.</p></details><details><summary><span data-i18n="faq4Q">Mogu li koristiti aplikaciju za poreznu prijavu?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq4A">Aplikacija može pomoći pri osobnoj evidenciji. Hrvatski FIFO i razdoblja držanja prikazani su informativno i nisu porezni savjet ili službena potvrda porezne obveze.</p></details><details><summary><span data-i18n="faq5Q">Kako nadograditi s bete 1.0 na 1.1?</span><span class="plus-symbol" aria-hidden="true"></span></summary><p data-i18n="faq5A">Prema uputama izdavača, beta 1.1 instalira se preko verzije 1.0 bez prethodnog uklanjanja. Prije nadogradnje svejedno napravi sigurnosnu kopiju važnih podataka.</p></details></div></div></section>
 
     <section class="integrity" aria-labelledby="integrityTitle"><div class="container integrity-layout"><div class="integrity-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 4 6v6c0 4.7 3.5 8.1 8 10 4.5-1.9 8-5.3 8-10V6l-8-4Z"/><path d="m8 12 3 3 5-6"/></svg></div><div class="integrity-copy"><span class="integrity-kicker" data-i18n="hashKicker">PROVJERA DATOTEKE</span><h3 id="integrityTitle" data-i18n="hashTitle">Provjeri originalni APK.</h3><p data-i18n="hashDesc">Izdavač je objavio SHA-256 kontrolni zbroj za Public Beta 1.1. Usporedi ga sa zbrojem preuzete datoteke.</p><div class="hash-row"><code id="apkHash">b95a261fd3fe819ebe8de82c548446318beeb6fcc648bb1c538fdc2fd1806ca1</code><button id="copyHash" type="button" data-i18n="hashCopy" aria-label="Kopiraj SHA-256">Kopiraj</button></div><small data-i18n="hashCaveat">Podudaranje kontrolnog zbroja potvrđuje istovjetnost datoteke, a ne jamči odsutnost sigurnosnih ranjivosti.</small></div></div></section>
 
     <section class="closing section-space" id="download" aria-labelledby="closingTitle"><div class="container closing-card"><div class="closing-grid" aria-hidden="true"></div><div class="closing-content"><span class="closing-label"><span class="status-dot"></span><span data-i18n="closingBadge">PUBLIC BETA 1.1 · ANDROID</span></span><h2 id="closingTitle"><span data-i18n="closingTitle1">Vrijeme je za</span><br><span class="serif-accent" data-i18n="closingTitle2">bolji pregled.</span></h2><p data-i18n="closingText">Preuzmi besplatnu beta-verziju, isprobaj aplikaciju i podijeli povratnu informaciju na službenoj stranici projekta.</p><a class="button primary closing-button" href="https://strfvckrzg-applab.itch.io/investment-portfolio-public-beta-10" target="_blank" rel="noopener noreferrer"><span data-i18n="closingButton">Otvori službeno preuzimanje</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a><span class="download-note" data-i18n="downloadNote">Za Android · besplatna javna beta · APK se preuzima s itch.io</span></div><span class="closing-decoration" aria-hidden="true">IP<span>↗</span></span></div></section>
   </main>
 
-  <footer class="footer"><div class="container footer-top"><div><a class="footer-brand" href="#top">INVESTMENT <span>PORTFOLIO</span></a><p data-i18n="footerTagline">Neovisna Android aplikacija za osobnu evidenciju ulaganja.</p></div><div class="footer-nav"><a href="#features" data-i18n="navFeatures">Mogućnosti</a><a href="#screenshots" data-i18n="navScreens">Aplikacija</a><a href="privacy.html" data-i18n="privacyPolicy">Privatnost</a><a href="https://strfvckrzg-applab.itch.io/investment-portfolio-public-beta-10" target="_blank" rel="noopener noreferrer">itch.io ↗</a></div></div><div class="container footer-bottom"><span>© 2026 strfvckrzg · applab. <span data-i18n="footerLocation">Zagreb, Hrvatska.</span></span><span class="made-in-eu"><span data-i18n="madeInEu">Napravljeno u EU</span><span class="eu-flag" aria-hidden="true">🇪🇺</span></span><span data-i18n="footerDisclaimer">Beta softver · nije financijski ili porezni savjet.</span><a href="#top" class="back-top"><span data-i18n="backTop">Na vrh</span> ↑</a></div></footer>
+  <footer class="footer"><div class="container footer-top"><div><a class="footer-brand" href="#top">INVESTMENT <span>PORTFOLIO</span></a><p data-i18n="footerTagline">Neovisna Android aplikacija za osobnu evidenciju ulaganja.</p></div><div class="footer-nav"><a href="#features" data-i18n="navFeatures">Mogućnosti</a><a href="#screenshots" data-i18n="navScreens">Aplikacija</a><a href="#updates" data-i18n="navNews">Novosti</a><a href="privacy.html" data-i18n="privacyPolicy">Privatnost</a><a href="https://strfvckrzg-applab.itch.io/investment-portfolio-public-beta-10" target="_blank" rel="noopener noreferrer">itch.io ↗</a></div></div><div class="container footer-bottom"><span>© 2026 strfvckrzg · applab. <span data-i18n="footerLocation">Zagreb, Hrvatska.</span></span><span class="made-in-eu"><span data-i18n="madeInEu">Napravljeno u EU</span><span class="eu-flag" aria-hidden="true">🇪🇺</span></span><span data-i18n="footerDisclaimer">Beta softver · nije financijski ili porezni savjet.</span><a href="#top" class="back-top"><span data-i18n="backTop">Na vrh</span> ↑</a></div></footer>
   <dialog class="image-dialog" id="imageDialog" aria-label="Uvećana snimka zaslona"><div class="dialog-head"><span id="dialogCaption">Snimka zaslona</span><button id="closeDialog" type="button" aria-label="Zatvori uvećanu sliku">×</button></div><div class="dialog-image-wrap"><img id="dialogImage" alt="Uvećana snimka zaslona aplikacije"></div><p class="dialog-caption" data-i18n="dialogDemo">Izmišljeni testni podaci · razvojna verzija aplikacije</p></dialog>
 </body>
 </html>

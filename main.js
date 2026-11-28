@@ -228,8 +228,8 @@ const translations={
     "en": "Your personal ETF, stock and crypto ledger. Track your own records without a required bank or broker connection."
   },
   "get": {
-    "hr": "Isprobaj besplatnu betu ↗",
-    "en": "Try the free beta ↗"
+    "hr": "Isprobaj besplatnu betu",
+    "en": "Try the free beta"
   },
   "preview": {
     "hr": "Pogledaj novo sučelje",
@@ -304,8 +304,8 @@ const translations={
     "en": "Free Android version. Investment records, history, informational FIFO and backups."
   },
   "publicDownload": {
-    "hr": "Službeno preuzimanje ↗",
-    "en": "Official download ↗"
+    "hr": "Službeno preuzimanje",
+    "en": "Official download"
   },
   "qaLabel": {
     "hr": "RAZVOJNI KANDIDAT · NIJE OBJAVLJEN",
@@ -388,8 +388,8 @@ const translations={
     "en": "The app stores personal records locally. Optional market data may require external services. Concealing amounts visually does not replace locking or encryption."
   },
   "privacyRead": {
-    "hr": "Pročitaj politiku privatnosti ↗",
-    "en": "Read the privacy policy ↗"
+    "hr": "Pročitaj politiku privatnosti",
+    "en": "Read the privacy policy"
   },
   "visible": {
     "hr": "Vidljivo",
@@ -444,8 +444,8 @@ const translations={
     "en": "Free public beta for Android. Download and provide feedback on the official itch.io page."
   },
   "closeDownload": {
-    "hr": "Otvori itch.io ↗",
-    "en": "Open itch.io ↗"
+    "hr": "Otvori itch.io",
+    "en": "Open itch.io"
   },
   "hashDesc": {
     "hr": "Ranije objavljen kontrolni zbroj izdavača; nije ponovno verificiran u ovoj fazi.",
@@ -532,8 +532,8 @@ const translations={
     "en": "Policy content last updated: 15 November 2026."
   },
   "legalBack": {
-    "hr": "← Povratak na početnu",
-    "en": "← Back to home"
+    "hr": "Povratak na početnu",
+    "en": "Back to home"
   }
 };
 'use strict';

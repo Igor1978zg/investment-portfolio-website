@@ -1,0 +1,538 @@
+{
+  "f01": {
+    "hr": "Portfelji na jednom mjestu",
+    "en": "Portfolios in one place"
+  },
+  "fd01": {
+    "hr": "ETF-ovi, dionice i kriptovalute. Evidentiraj više ulaganja i prati njihovu vrijednost.",
+    "en": "ETFs, stocks and crypto. Record multiple investments and track their value."
+  },
+  "f02": {
+    "hr": "Transakcije i naknade",
+    "en": "Transactions and fees"
+  },
+  "fd02": {
+    "hr": "Ručni unos kupnji, prodaja i troškova bez obveznog povezivanja brokera.",
+    "en": "Manual purchases, sales and fees without a required broker connection."
+  },
+  "f03": {
+    "hr": "Grafikoni i povijest",
+    "en": "Charts and history"
+  },
+  "fd03": {
+    "hr": "Prati spremljene vrijednosti i uplate; prikaz nije jamstvo tržišne cijene u stvarnom vremenu.",
+    "en": "Track saved values and contributions; not a guarantee of real-time market prices."
+  },
+  "f04": {
+    "hr": "Hrvatski FIFO",
+    "en": "Croatian FIFO"
+  },
+  "fd04": {
+    "hr": "Informativna evidencija redoslijeda nabave i roka držanja za hrvatsku rezidentnost.",
+    "en": "Informational acquisition order and holding-period overview for Croatian residence."
+  },
+  "f05": {
+    "hr": "Lokalna evidencija",
+    "en": "Local records"
+  },
+  "fd05": {
+    "hr": "Bez obvezne registracije. Androidova biometrija može zaštititi pristup.",
+    "en": "No mandatory account. Android biometrics can protect access."
+  },
+  "f06": {
+    "hr": "Sigurnosne kopije",
+    "en": "Backups"
+  },
+  "fd06": {
+    "hr": "Izvezi JSON datoteku i čuvaj je na sigurnom mjestu koje sam odabereš.",
+    "en": "Export a JSON file and protect it in a location you choose."
+  },
+  "shot0": {
+    "hr": "Pregled portfelja",
+    "en": "Portfolio overview"
+  },
+  "shot1": {
+    "hr": "Skriveni iznosi",
+    "en": "Amounts hidden"
+  },
+  "shot2": {
+    "hr": "Kartice ulaganja",
+    "en": "Investment cards"
+  },
+  "shot3": {
+    "hr": "Analitika",
+    "en": "Analytics"
+  },
+  "shot4": {
+    "hr": "Svijetla tema",
+    "en": "Light theme"
+  },
+  "shot5": {
+    "hr": "Hrvatska porezna radna podloga",
+    "en": "Croatian tax working paper"
+  },
+  "reg0": {
+    "hr": "Hrvatska",
+    "en": "Croatia"
+  },
+  "regd0": {
+    "hr": "FIFO u javnoj beti; napredna radna podloga u QA.",
+    "en": "FIFO in public beta; advanced working paper in QA."
+  },
+  "reg1": {
+    "hr": "Slovenija",
+    "en": "Slovenia"
+  },
+  "regd1": {
+    "hr": "Radna procjena prodaje dionica i ETF-ova prije godišnjeg prebijanja.",
+    "en": "Working sale estimate for stocks and ETFs before annual loss offsets."
+  },
+  "reg2": {
+    "hr": "Srbija",
+    "en": "Serbia"
+  },
+  "regd2": {
+    "hr": "Dokumentirana prodaja dionica s provjerenim RSD iznosima.",
+    "en": "Documented stock sales using verified RSD amounts."
+  },
+  "reg3": {
+    "hr": "Crna Gora",
+    "en": "Montenegro"
+  },
+  "regd3": {
+    "hr": "FIFO procjena državnog poreza, bez općinskog prireza.",
+    "en": "FIFO state-tax estimate, excluding municipal surcharge."
+  },
+  "reg4": {
+    "hr": "Sjeverna Makedonija",
+    "en": "North Macedonia"
+  },
+  "regd4": {
+    "hr": "Dokumentirani dio prodaje uz ručni MKD unos.",
+    "en": "Documented part of a sale with manual MKD entry."
+  },
+  "reg5": {
+    "hr": "Kosovo",
+    "en": "Kosovo"
+  },
+  "regd5": {
+    "hr": "Procjena dodatnog godišnjeg poreza na prodaju dionica.",
+    "en": "Estimate of additional annual tax on stock sales."
+  },
+  "reg6": {
+    "hr": "Federacija BiH",
+    "en": "Federation of Bosnia and Herzegovina"
+  },
+  "regd6": {
+    "hr": "Radna procjena prodaje poslovnog udjela u d.o.o.",
+    "en": "Working estimate for a sale of an LLC interest."
+  },
+  "reg7": {
+    "hr": "Republika Srpska",
+    "en": "Republika Srpska"
+  },
+  "regd7": {
+    "hr": "Domaća prodaja dionica uz ponderiranu nabavnu vrijednost.",
+    "en": "Domestic stock sales using documented weighted acquisition value."
+  },
+  "reg8": {
+    "hr": "Brčko distrikt",
+    "en": "Brčko District"
+  },
+  "regd8": {
+    "hr": "Informacija o izuzeću obuhvaćenih instrumenata.",
+    "en": "Information about exemptions for covered instruments."
+  },
+  "q0": {
+    "hr": "Je li aplikacija besplatna?",
+    "en": "Is the app free?"
+  },
+  "a0": {
+    "hr": "Javna beta 1.1 je besplatna, bez pretplate i oglasa. Budući uvjeti mogu se promijeniti.",
+    "en": "Public Beta 1.1 is free, without subscriptions or ads. Future terms may change."
+  },
+  "q1": {
+    "hr": "Je li novo sučelje već dostupno?",
+    "en": "Is the new interface available?"
+  },
+  "a1": {
+    "hr": "Ne. Precision Finance prikazan ovdje je razvojni kandidat 3.9.24-QA. Javna beta 1.1 zadržava prethodni izgled.",
+    "en": "No. Precision Finance shown here is development candidate 3.9.24-QA. Public Beta 1.1 retains its earlier interface."
+  },
+  "q2": {
+    "hr": "Mogu li predati poreznu prijavu?",
+    "en": "Can I file my tax return?"
+  },
+  "a2": {
+    "hr": "Ne. Radna podloga JOPPD i INO-DOH nije službeni obrazac. XML i automatsko slanje su blokirani.",
+    "en": "No. The JOPPD and INO-DOH working paper is not an official form. XML and automatic submission are blocked."
+  },
+  "q3": {
+    "hr": "Kako nadograditi betu 1.0?",
+    "en": "How do I upgrade Beta 1.0?"
+  },
+  "a3": {
+    "hr": "Prema uputama izdavača, beta 1.1 instalira se preko 1.0 bez uklanjanja. Prije nadogradnje napravi sigurnosnu kopiju.",
+    "en": "According to the publisher, Beta 1.1 installs over 1.0 without removal. Back up your data first."
+  },
+  "q4": {
+    "hr": "Jesu li podaci i cijene uvijek točni?",
+    "en": "Are values and prices always accurate?"
+  },
+  "a4": {
+    "hr": "Ne nužno. Ručni unosi i vanjski tržišni podaci mogu biti nepotpuni ili zastarjeli; provjeri bitne iznose neovisno.",
+    "en": "Not necessarily. Manual entries and external market data can be incomplete or stale; independently verify important amounts."
+  },
+  "navFeatures": {
+    "hr": "Mogućnosti",
+    "en": "Features"
+  },
+  "navScreens": {
+    "hr": "Sučelje",
+    "en": "Interface"
+  },
+  "navNews": {
+    "hr": "Razvoj",
+    "en": "Development"
+  },
+  "navPrivacy": {
+    "hr": "Privatnost",
+    "en": "Privacy"
+  },
+  "navFaq": {
+    "hr": "Pitanja",
+    "en": "FAQ"
+  },
+  "skip": {
+    "hr": "Preskoči na sadržaj",
+    "en": "Skip to content"
+  },
+  "navDownload": {
+    "hr": "Preuzmi betu",
+    "en": "Get beta"
+  },
+  "available": {
+    "hr": "JAVNA BETA 1.1 · ANDROID",
+    "en": "PUBLIC BETA 1.1 · ANDROID"
+  },
+  "hero1": {
+    "hr": "Investicije.",
+    "en": "Investments."
+  },
+  "hero2": {
+    "hr": "Jasna slika.",
+    "en": "A clearer view."
+  },
+  "heroDesc": {
+    "hr": "Osobna evidencija ETF-ova, dionica i kriptovaluta. Prati vlastite podatke bez obveznog povezivanja banke ili brokera.",
+    "en": "Your personal ETF, stock and crypto ledger. Track your own records without a required bank or broker connection."
+  },
+  "get": {
+    "hr": "Isprobaj besplatnu betu ↗",
+    "en": "Try the free beta ↗"
+  },
+  "preview": {
+    "hr": "Pogledaj novo sučelje",
+    "en": "Explore the new interface"
+  },
+  "trust1": {
+    "hr": "Lokalna evidencija",
+    "en": "Local records"
+  },
+  "trust2": {
+    "hr": "Ručni unos",
+    "en": "Manual entry"
+  },
+  "trust3": {
+    "hr": "Bez obveznog računa",
+    "en": "No required account"
+  },
+  "heroCaption": {
+    "hr": "Razvojni prikaz · sintetički podaci · nije javno izdanje",
+    "en": "Development preview · synthetic data · not a public release"
+  },
+  "stocks": {
+    "hr": "Dionice",
+    "en": "Stocks"
+  },
+  "crypto": {
+    "hr": "Kriptovalute",
+    "en": "Crypto"
+  },
+  "portfolios": {
+    "hr": "Više portfelja",
+    "en": "Multiple portfolios"
+  },
+  "featuresK": {
+    "hr": "JAVNA BETA",
+    "en": "PUBLIC BETA"
+  },
+  "featuresTitle": {
+    "hr": "Sve bitno, na jednom mjestu.",
+    "en": "Everything essential, in one place."
+  },
+  "featuresIntro": {
+    "hr": "Funkcije dostupne u javnoj beti 1.1.",
+    "en": "Features available in Public Beta 1.1."
+  },
+  "screensTitle": {
+    "hr": "Novo sučelje.",
+    "en": "A new interface."
+  },
+  "screensIntro": {
+    "hr": "Šest prikaza razvojnog kandidata. Odaberi sliku za uvećanje.",
+    "en": "Six views of the development candidate. Select a screenshot to enlarge."
+  },
+  "screensNote": {
+    "hr": "Snimke su generirane iz stvarnih web datoteka kandidata 3.9.24-QA u Chromiumu, sa simuliranim Android mostom i izmišljenim podacima. Nisu snimke završnog Android APK-a.",
+    "en": "Captures use the actual 3.9.24-QA web assets in Chromium with a simulated Android bridge and fictional data. They are not screenshots of a final Android APK."
+  },
+  "devK": {
+    "hr": "RAZVOJ I IZDANJA",
+    "en": "DEVELOPMENT & RELEASES"
+  },
+  "devTitle": {
+    "hr": "Jasno odvojena izdanja.",
+    "en": "Clearly separated releases."
+  },
+  "publicLabel": {
+    "hr": "DOSTUPNO SADA",
+    "en": "AVAILABLE NOW"
+  },
+  "publicDesc": {
+    "hr": "Besplatna verzija za Android. Evidencija ulaganja, povijest, informativni FIFO i sigurnosne kopije.",
+    "en": "Free Android version. Investment records, history, informational FIFO and backups."
+  },
+  "publicDownload": {
+    "hr": "Službeno preuzimanje ↗",
+    "en": "Official download ↗"
+  },
+  "qaLabel": {
+    "hr": "RAZVOJNI KANDIDAT · NIJE OBJAVLJEN",
+    "en": "DEVELOPMENT CANDIDATE · NOT RELEASED"
+  },
+  "qaDesc": {
+    "hr": "Precision Finance, tamna i svijetla tema, privatni prikaz, devet jezika uključujući makedonski i albanski, prikaz MKD te hrvatska porezna radna podloga.",
+    "en": "Precision Finance, dark/light themes, private display, nine languages including Macedonian and Albanian, MKD display and Croatian tax working paper."
+  },
+  "qaStatus": {
+    "hr": "Lokalna integracija i regresijske provjere završene; Android kompilacija i validacija još predstoje. Privatna Nova nije dostupna za javno preuzimanje.",
+    "en": "Local integration and regression checks completed; Android compilation and validation remain pending. Private Nova is not a public download."
+  },
+  "taxTitle": {
+    "hr": "Hrvatska porezna radna podloga",
+    "en": "Croatian tax working paper"
+  },
+  "tax1": {
+    "hr": "Objedinjeni FIFO po ISIN-u, zasebne procjene i pregled lotova.",
+    "en": "Consolidated FIFO by ISIN, individual estimates and lot review."
+  },
+  "tax2": {
+    "hr": "Dividende, inozemni porez i provjere dokumentacije i tečajeva.",
+    "en": "Dividends, foreign tax, documentation and FX review."
+  },
+  "tax3": {
+    "hr": "Radni PDF, zbirni CSV i detaljni FIFO CSV; Android izvoz još nije potvrđen.",
+    "en": "Draft PDF, aggregate CSV and detailed FIFO CSV; native Android export is not yet validated."
+  },
+  "tax4": {
+    "hr": "JOPPD i INO-DOH kao radna podloga. Službeni XML i automatsko slanje blokirani.",
+    "en": "JOPPD and INO-DOH as working papers. Official XML and automatic filing blocked."
+  },
+  "taxCaveat": {
+    "hr": "Procjene nisu službena porezna potvrda. Kripto, prijenosi i nepotpuna evidencija zahtijevaju zaseban pregled.",
+    "en": "Estimates are not official tax determinations. Crypto, transfers and incomplete records require separate review."
+  },
+  "regTitle": {
+    "hr": "Regionalni razvojni pregled",
+    "en": "Regional development scope"
+  },
+  "regIntro": {
+    "hr": "Sačuvan pregled ranije najavljenih razvojnih regionalnih funkcija. Osim informativnog hrvatskog FIFO-a, ne predstavljaju potvrđene funkcije javne bete 1.1 niti potpuno potvrđene porezne obveze.",
+    "en": "Earlier announced regional development scope. Except informational Croatian FIFO, these are not confirmed Public Beta 1.1 features or fully verified tax liabilities."
+  },
+  "regArea": {
+    "hr": "Područje",
+    "en": "Jurisdiction"
+  },
+  "regScope": {
+    "hr": "Razvojni opseg",
+    "en": "Development scope"
+  },
+  "regNotice": {
+    "hr": "Ranije najavljeni prošireni izbor rezidentnosti (EU-27 i druga područja) i opći CSV izvoz ostaju razvojni opseg.",
+    "en": "Previously announced extended residence selection (EU-27 and other jurisdictions) and general CSV export remain development scope."
+  },
+  "demoTitle": {
+    "hr": "Pogledaj kako se vrijednost mijenja.",
+    "en": "See how value changes."
+  },
+  "demoDesc": {
+    "hr": "Interaktivni grafikon s izmišljenim vrijednostima. Nije povezan s aplikacijom niti sa stvarnim tržišnim podacima.",
+    "en": "Interactive chart using fictional values. Not connected to the app or real market data."
+  },
+  "demoValueLabel": {
+    "hr": "Vrijednost portfelja",
+    "en": "Portfolio value"
+  },
+  "privacyK": {
+    "hr": "PRIVATNOST",
+    "en": "PRIVACY"
+  },
+  "privacyTitle": {
+    "hr": "Tvoja evidencija ostaje tvoja.",
+    "en": "Your records remain yours."
+  },
+  "privacyDesc": {
+    "hr": "Aplikacija čuva osobnu evidenciju lokalno. Opcionalni tržišni podaci mogu zahtijevati vanjske usluge. Vizualno skrivanje iznosa nije zamjena za zaključavanje ili enkripciju.",
+    "en": "The app stores personal records locally. Optional market data may require external services. Concealing amounts visually does not replace locking or encryption."
+  },
+  "privacyRead": {
+    "hr": "Pročitaj politiku privatnosti ↗",
+    "en": "Read the privacy policy ↗"
+  },
+  "visible": {
+    "hr": "Vidljivo",
+    "en": "Visible"
+  },
+  "concealed": {
+    "hr": "Skriveno",
+    "en": "Hidden"
+  },
+  "howK": {
+    "hr": "KAKO ZAPOČETI",
+    "en": "GETTING STARTED"
+  },
+  "howTitle": {
+    "hr": "Tri jednostavna koraka.",
+    "en": "Three simple steps."
+  },
+  "step1": {
+    "hr": "Preuzmi javnu betu",
+    "en": "Download public beta"
+  },
+  "step1d": {
+    "hr": "Preuzmi Android APK s itch.io.",
+    "en": "Get the Android APK from itch.io."
+  },
+  "step2": {
+    "hr": "Dodaj portfelj",
+    "en": "Add a portfolio"
+  },
+  "step2d": {
+    "hr": "Ručno evidentiraj ulaganja.",
+    "en": "Manually record investments."
+  },
+  "step3": {
+    "hr": "Prati i sačuvaj",
+    "en": "Track and back up"
+  },
+  "step3d": {
+    "hr": "Redovito izvozi sigurnosnu kopiju.",
+    "en": "Export a backup regularly."
+  },
+  "faqTitle": {
+    "hr": "Dobro je znati.",
+    "en": "Good to know."
+  },
+  "closeTitle": {
+    "hr": "Počni pratiti svoja ulaganja.",
+    "en": "Start tracking your investments."
+  },
+  "closeDesc": {
+    "hr": "Besplatna javna beta za Android. Preuzimanje i povratne informacije na službenoj itch.io stranici.",
+    "en": "Free public beta for Android. Download and provide feedback on the official itch.io page."
+  },
+  "closeDownload": {
+    "hr": "Otvori itch.io ↗",
+    "en": "Open itch.io ↗"
+  },
+  "hashDesc": {
+    "hr": "Ranije objavljen kontrolni zbroj izdavača; nije ponovno verificiran u ovoj fazi.",
+    "en": "Previously published checksum from the publisher; not reverified in this phase."
+  },
+  "copy": {
+    "hr": "Kopiraj",
+    "en": "Copy"
+  },
+  "hashCaveat": {
+    "hr": "Podudaranje zbroja potvrđuje istovjetnost datoteke, ne odsutnost ranjivosti.",
+    "en": "A matching checksum confirms file identity, not the absence of vulnerabilities."
+  },
+  "footerTagline": {
+    "hr": "Neovisni Android projekt · Zagreb, Hrvatska · EU",
+    "en": "Independent Android project · Zagreb, Croatia · EU"
+  },
+  "privacyPolicy": {
+    "hr": "Politika privatnosti",
+    "en": "Privacy policy"
+  },
+  "footerDisclaimer": {
+    "hr": "© 2026 strfvckrzg · applab. Beta softver; nije financijski ili porezni savjet.",
+    "en": "© 2026 strfvckrzg · applab. Beta software; not financial or tax advice."
+  },
+  "dialogNote": {
+    "hr": "Razvojni prikaz · sintetički podaci",
+    "en": "Development preview · synthetic data"
+  },
+  "legalh0": {
+    "hr": "1. Što aplikacija pohranjuje",
+    "en": "1. What the app stores"
+  },
+  "legalp0": {
+    "hr": "Evidencija ulaganja koju unosiš u Android aplikaciju čuva se lokalno na uređaju. Za osnovno korištenje nije potrebna registracija, povezivanje banke ili brokera, niti slanje evidencije izdavaču.",
+    "en": "Investment records entered in the Android app are stored locally on the device. Basic use requires no registration, bank or broker connection, or sending the records to the publisher."
+  },
+  "legalh1": {
+    "hr": "2. Opcionalne vanjske usluge",
+    "en": "2. Optional external services"
+  },
+  "legalp1": {
+    "hr": "Ako uključiš dohvat tržišnih cijena ili tečajeva, aplikacija može kontaktirati vanjske pružatelje podataka. Ti pružatelji mogu obrađivati tehničke podatke o zahtjevu prema vlastitim pravilima. Vrijednosti i izračune provjeri neovisno.",
+    "en": "If you enable retrieval of market prices or exchange rates, the app may contact external providers. They may process technical request data under their own policies. Verify values and calculations independently."
+  },
+  "legalh2": {
+    "hr": "3. Biometrijska zaštita",
+    "en": "3. Biometric protection"
+  },
+  "legalp2": {
+    "hr": "Aplikacija može koristiti Androidov mehanizam biometrijske provjere ili vjerodajnice uređaja. Ovom web-stranicom ne prikupljaju se biometrijski podaci.",
+    "en": "The app may use Android biometric verification or device credentials. This website does not collect biometric data."
+  },
+  "legalh3": {
+    "hr": "4. Sigurnosne kopije",
+    "en": "4. Backups"
+  },
+  "legalp3": {
+    "hr": "Ako izvoziš sigurnosnu kopiju u JSON formatu, sam biraš gdje se ona sprema. Datoteka može sadržavati osjetljive financijske podatke. Čuvaj je na sigurnom mjestu i ne dijeli je javno.",
+    "en": "If you export a JSON backup, you choose where it is saved. The file may contain sensitive financial data. Keep it secure and do not share it publicly."
+  },
+  "legalh4": {
+    "hr": "5. Ova web-stranica",
+    "en": "5. This website"
+  },
+  "legalp4": {
+    "hr": "Ova statična web-stranica ne zahtijeva korisnički račun niti prikuplja podatke o tvojim ulaganjima. Koristi Cloudflare Web Analytics za statistiku posjeta i performansi, bez analitičkih i marketinških kolačića. Cloudflare obrađuje tehničke podatke potrebne za rad stranice i statistiku posjeta. U pregledniku se mogu spremiti odabrani jezik i tema. Klikom na preuzimanje prelaziš na itch.io, gdje vrijede njihova pravila privatnosti.",
+    "en": "This static website requires no user account and does not collect your investment data. It uses Cloudflare Web Analytics for visits and performance statistics, without analytics or marketing cookies. Cloudflare processes technical data needed for site operation and visit statistics. Your chosen language and theme may be stored in the browser. Download links take you to itch.io, where its privacy policies apply."
+  },
+  "legalh5": {
+    "hr": "6. Izmjene i kontakt",
+    "en": "6. Changes and contact"
+  },
+  "legalp5": {
+    "hr": "Ovo je informativna verzija politike za javnu beta-aplikaciju. Informacije se mogu ažurirati zajedno s novim izdanjima. Za pitanja i povratne informacije koristi službenu itch.io stranicu projekta.",
+    "en": "This is an informational policy for the public beta app. Information may be updated with new releases. For questions and feedback use the official itch.io project page."
+  },
+  "legalTitle": {
+    "hr": "Politika privatnosti",
+    "en": "Privacy policy"
+  },
+  "legalIntro": {
+    "hr": "Zadnje ažuriranje sadržaja politike: 15. studenoga 2026.",
+    "en": "Policy content last updated: 15 November 2026."
+  },
+  "legalBack": {
+    "hr": "← Povratak na početnu",
+    "en": "← Back to home"
+  }
+}
